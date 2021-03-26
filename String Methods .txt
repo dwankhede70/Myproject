@@ -1,0 +1,57 @@
+package stringclass;
+public class Test {
+	
+	public static void main(String[] args) {
+		
+		String s="Dnyaneshwar";
+		String s1="Wankhede";
+		
+		
+		char c1=s.charAt(5);// index of the given string value format
+		System.out.println(c1);
+
+		int length=s.length();
+		System.out.println(length);// length of the givem String 
+		
+		
+		String lowercase =s.toLowerCase();// for lowercase letter 
+		String uppercase=s1.toUpperCase();// for upper caswe letter
+		System.out.println(lowercase);
+		System.out.println(uppercase);
+	
+		String concat=s.concat(s1);// concat the string with other String 
+		System.out.println(concat);
+		
+		boolean b=s1.equals(s); // check the objects 
+		System.out.println(b);
+		
+		
+		String s3=s.substring(4);//String  beggining from that of index value 
+		System.out.println(s3);
+		
+		String s4=s1.substring(0, 5);
+		System.out.println(s4);//  start and end of the string value 
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+
+}
